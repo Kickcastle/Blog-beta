@@ -12,7 +12,7 @@
 <body>
     <div class="container-bar">
         <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
-            <a class="navbar-brand" href="#">News Noticias</a>
+            <a class="navbar-brand" href="index.html">News Noticias</a>
             <ul class="nav nav-pills">
               <li class="nav-item">
                 <a class="nav-link" href="#fat">News noticia del fin de semana</a>
@@ -28,24 +28,43 @@
         <div class="dropdown">
             <img src="contenido/menu.png" width="50px" height="50px" onclick="myFunction()" class="dropbtn">
             <div id="myDropdown" class="dropdown-content">
-              <a href="#home">Home</a>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+              <a href="#home" id="cotenido1" onclick="Elem_nav()">Home</a>
+              <a href="#about" id="contenido2">About</a>
+              <a href="#contact" id="contenido3">Contact</a>
             </div>
         </div>
     </div>
     <div class="container-galeria">
         <div class="image">
-            <img src="" alt="" class="img1" width="150px" height="150px">
-            <img src="" alt="" class="img2" width="150px" height="150px">
-            <img src="" alt="" class="img3" width="150px" height="150px">
-            <img src="" alt="" class="img4" width="150px" height="150px">
-            <img src="" alt="" class="img5" width="150px" height="150px">
+            <div id="info1">
+                <img src="" alt="" onclick="info()" class="img1" width="150px" height="150px">
+                <p>Portatiles</p>
+            </div>
+            <div id="info2">
+                <img src="" alt="" class="img2" width="150px" height="150px">
+                <p>Nvidia</p>
+            </div>
+            <div id="info3">
+                <img src="" alt="" class="img3" width="150px" height="150px">
+                <p>AMD</p>
+            </div>
+            <div id="info4">
+                <img src="" alt="" class="img4" width="150px" height="150px">
+                <p>Intel</p>
+            </div>
+            <div id="info5">
+                <img src="" alt="" class="img5" width="150px" height="150px">
+                <p>Cripto Monedas</p>
+            </div>
         </div>
     </div>
     <div class="container-general">
+        <div class="encabezado_mobile">
+            <h1>News Noticias</h1>
+        </div>
         <div class="container-section">
-            <div class="info-posts">
+            
+            <div class="info-posts" id="contenedorID">
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
                     <h1>Todo sobre el mundo y la tecnología</h1>
                     <h4>Lorem ipsum dolor sit amet.</h4>
@@ -102,6 +121,20 @@
                     </p>
                 </div>
             </div>
+            <!-- contenedor de seleccion portatiles---------------------------------- -->
+            <div id="container_G2">
+
+                <h1>Ultima hora en el mundo de los portatiles</h1>
+                <br>
+                <h4>Nuevos portatiles en el mercado chino</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolor, rerum esse soluta nam quam. Possimus necessitatibus consequatur officia eligendi, placeat ab animi, dolorem neque vero, quibusdam quaerat dolor praesentium?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio facilis perspiciatis aliquid accusantium debitis nihil necessitatibus soluta exercitationem ad aliquam ducimus accusamus quia, iusto mollitia, animi consequatur aut, vero recusandae.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit corporis quaerat, veritatis id rem?</p>
+
+            </div>
+            <!-- contenedor de informacion Extras a la derecha de la ventana------------ -->
             <div class="bar-info">
                 <div class="encabezado">
                     <h4>Extra! Extra!</h4>

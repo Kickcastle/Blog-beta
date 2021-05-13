@@ -1,10 +1,8 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
+
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
   
-  // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -17,3 +15,21 @@ function myFunction() {
       }
     }
 }
+
+function info() {
+    const galeria = document.getElementById("contenedorID");
+    galeria.style.display = "none";
+    const newVentana = document.getElementById("container_G2");
+    newVentana.style.display = "block";
+  
+    
+}
+function Elem_nav() {
+    const portatil = document.getElementById("cotenido1");
+    info();
+    // portatil.innerHTML = newVentana.value;
+}   
+
+
+
+
