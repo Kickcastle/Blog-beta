@@ -27,7 +27,6 @@ function info() {
 function Elem_nav() {
     const portatil = document.getElementById("cotenido1");
     info();
-    // portatil.innerHTML = newVentana.value;
 }   
 
 
